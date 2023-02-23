@@ -1,0 +1,285 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-image: url(../images/bgn-laboratory-headline-07.png);
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(40, 171, 202, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.section2 {
+    width: 100%;
+    height: 90vh;
+    background-color: #EEF6F8;
+    margin: auto;
+}
+
+.section2 h2 {
+    color: #00759A;
+    font-size: 25px;
+    /* width: 15%; */
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+
+.services {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    color: #28ABCA;
+}
+
+.service h4 {
+    color: #00759A;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+footer {
+    background-color: #00759A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45vh;
+    color: #EEF6F8;
+}
+
+.footerpart {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.footerpart h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.footerpart ul {
+    list-style-type: none;
+}
+
+.footerpart button {
+    padding: 10px 20px;
+    color: #00759A;
+    background-color: #EEF6F8;
+    font-size: 18px;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.footerpart img {
+    padding: 10px;
+}
+
+.aboutus {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #28ABCA;
+    font-size: 15px;
+
+}
+
+.aboutus h3 {
+    font-size: 25px;
+    color: #00759A;
+}
+
+.aboutphotos {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bigphoto {
+    width: 100%;
+}
+
+.bigphoto img {
+    width: 100%;
+}
+
+.smallphoto {
+    width: 48%;
+}
+
+.smallphoto img {
+    width: 100%;
+
+}
+
+.aboutparagraph {
+    width: 46%;
+}
+
+.section3 {
+    background-image: url(../images/bgn-laboratory-04.png);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    text-align: center;
+    color: #1f839a;
+}
+
+@media only screen and (max-width:992px) {
+    .aboutus {
+        font-size: 12px;
+        height: fit-content;
+
+    }
+    .section1{
+        height: fit-content;
+    }
+    .section3{
+        font-size: 20px;
+        height: fit-content;
+    }
+    .section2 h2 {
+        font-size: 17px;
+
+    }
+
+    .section2 {
+        font-size: 14px;
+    }
+    .footerpart button{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .footerpart img {
+        width: 13%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .aboutus {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .aboutphotos {
+        width: 98%;
+        margin: auto;
+    }
+
+    .aboutparagraph {
+        width: 98%;
+        margin: auto;
+    }
+
+    .aboutus h3 {
+        font-size: 15px;
+    }
+
+   
+
+    .section2 h2 {
+        font-size: 14px;
+        /* height: fit-content; */
+    }
+    .section3{
+        font-size: 18px;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .number{
+        width: 50%;
+        text-align: center;
+    }
+    .footerpart button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .section2 {
+        height: fit-content;
+    }
+
+    .services {
+
+
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .service {
+        width: 80%;
+        /* margin: auto; */
+        height: fit-content;
+        margin: 10px auto;
+    }
+    .section3{
+        font-size: 15px;
+    }
+    footer{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .footerpart{
+        width: 90%;
+        margin: auto;
+        font-size: 14px;
+
+    }
+    .footerpart img{
+        width: 5%;
+    }
+    .footerpart ul{
+        padding-left: 10px;
+    }
+}
